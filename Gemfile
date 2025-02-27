@@ -40,7 +40,7 @@ gem "rspec_junit_formatter", "~> 0.4.1"
 # A Ruby static code analyzer and formatter.
 gem "rubocop", Fastlane::RUBOCOP_REQUIREMENT
 # A collection of RuboCop cops for performance optimizations.
-gem "rubocop-performance"
+gem "rubocop-performance", ">= 1.24.0"
 # A RuboCop extension focused on enforcing tools.
 gem "rubocop-require_tools"
 # Used to mock servers.
